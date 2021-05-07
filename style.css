@@ -1,0 +1,94 @@
+
+body {
+	    
+    background: fffbdf;
+    color: rgb(30,30,30);
+    font-family: 'Itim', cursive;;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight:lighter;
+    font-weight: 600;
+    text-align: justify;
+	background-image: url(images/background.jpg);
+
+}
+
+h1{
+ font-family: 'Playfair Display', serif;
+ color:#d7515a;
+ font-weight:700;
+ letter-spacing: 0.1px;
+ font size:50px;
+}
+
+h2{
+color:#0400ff;
+font-weight: bold;
+font-family: helvetica;
+font-size: 30px;
+}
+
+a {
+text-decoration: none;
+color:7b113a ;
+
+}
+
+a:hover {
+	color:black ;
+	font-weight: bold;
+
+}
+
+img {
+	width:200px;
+}
+
+#text-red {
+	color:#d7515a;
+}
+
+div {
+    width:900px;
+    margin: 20px auto;
+
+}
+#introduction {
+
+	  background: #e07b822e;
+	  padding: 40px;
+	   margin:30px;
+    box-shadow: 10px 10px 30px #0000007a;
+    border-radius: 6px;
+
+   
+}
+
+
+.card-green {
+ background: #5cbb4a91;
+ padding: 40px;
+    margin:30px;
+    box-shadow: 10px 10px 30px #0000007a;
+    border-radius: 6px;
+   
+
+}
+
+.container  {
+width:700px;
+margin: 30px 30px;
+}
+
+@media (max-width: 500px) {
+
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 750px) {
+	.container {
+		width: 600px;
+	}
+}
